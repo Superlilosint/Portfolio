@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    position: fixed;
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+.outer .text{
+    color: white;
+
+}
+.outer .buttons{
+    height: 5%;
+
+}
+.buttons .cv{
+    border: none;
+    height: 5rem;
+    width: 13rem;
+    font-size: 2em;
+    border-radius: 8px;
+
+
+}
